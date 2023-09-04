@@ -1,0 +1,1096 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+  
+*{
+    margin: 0;
+}
+.container{
+        width: 100%; 
+        max-width: 1200px;
+        height: auto; 
+        margin-left: auto; 
+        margin-right: auto;
+        box-sizing: border-box;
+        display: flex;
+        margin-bottom: 100px;
+        justify-content: space-between;
+}
+
+/* Start CSS tab bar */
+.content-left{
+    width: 18%;
+    float: left;
+    margin:5px 20px;
+}
+.tab-bar{
+    width: 100%;
+    max-width: 220px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    border: 3px solid #E1E8EF;
+    display: block;
+}
+.tab-icon{
+    width: 100%;
+    max-width: 220px;
+    height: 80%;
+    max-height: 165px;
+    margin: 11px 0 0px 10px;
+    padding-bottom: 15px;
+   
+    overflow: hidden;
+}
+.main-icon{
+    margin: 15px;
+    cursor: pointer;
+}
+.btn-web{
+    background-color: #42A7C2;
+    width: 170px;
+    height: 40px;
+    margin: 0 0 12px 13px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn-web:hover{
+    background-color: #2490ad;
+  
+}
+.btn-web:active{
+    background-color: #2490ad;
+  
+}
+.name-web{
+    font-size: 18px;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+.tab{
+    width: 100%;
+    height: 68px;
+    border-bottom: 1px solid #E1E8EF;
+    box-sizing: border-box;
+    display: flex; 
+    padding:22px;
+   overflow: hidden;
+}
+.name-tab{
+    width: 95%;
+    float: left;
+    font-size: 16px;
+    font-family: 'Noto Sans JP Regular', sans-serif;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-slides{
+  width: 5%;
+  float: right;
+  cursor: pointer;
+}
+/* End CSS tab bar */
+
+
+
+.content-right{
+    width: 76%;
+    height: auto;
+  
+    float: right;
+   margin-top: 10px;
+}
+
+/* Start CSS header  */
+.header{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+   
+}
+.header{
+    display: block;
+}
+.onMobile{
+    display: none;
+}
+/* CSS Menu  */
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 11px 0 0 2px;
+    box-sizing: border-box;
+    height: 30%;
+    background-color: white;
+}
+.menu-left{
+  
+    width: auto;
+    float: left;
+    cursor: pointer;
+}
+.home{
+    display: flex;
+    text-decoration: none;
+}
+.menu-right{
+    display: flex;
+    width: auto;
+    float: right;
+}
+#breadcrumbMenu{
+    display: none;
+}
+.share{
+    display: flex;
+    text-decoration: none;
+}
+
+.mail{
+    display: flex;
+    text-decoration: none;
+}
+.btn-sendMail{
+    display: flex;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.text-share{
+    padding-right: 5px;
+    color: #7B7B7B;
+    font-family: 'Noto Sans JP Regular', sans-serif;
+    font-size: 14px;
+}
+.icon-share{
+    padding: 4px 0 0 0 ;
+}
+.btn-share{
+    display: flex;
+    cursor: pointer;
+}
+.text-sendMail{
+    color: #7B7B7B;
+    font-family: 'Noto Sans JP Regular', sans-serif;
+    font-size: 14px;
+}
+.icon-sendMail{
+    padding-top:3px;
+}
+.icon-home{
+    padding-top:3px
+}
+.text-home{
+    color: #7B7B7B;
+    font-family: 'Noto Sans JP Regular', sans-serif;
+    font-size: 14px;
+    padding-left: 7px;
+}
+/* End CSS menu  */
+
+/* Start CSS sreach Form  */
+.sreach-box{
+    margin-top: 14px;
+    padding: 8px 0 ;
+    box-sizing: border-box;
+    height: 92%;
+    background-color: white;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+}
+.sreach{
+    width: 100%;
+    height: auto;
+    background-color: #e9f0f3;
+    border-radius: 52px;
+    box-sizing: border-box;
+    padding: 10px 50px;
+    display: flex;
+    overflow: hidden;
+}
+.text-question{
+    font-family: 'Noto Sans JP Regular', sans-serif;
+    font-size: 15px;
+    margin: 17px 0 0 36px ;
+}
+.sreach-form{
+    width: auto;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    margin:6px 32px 10px 30px;
+  
+}
+.form{
+    width: 420px;
+    height: 100%;
+    background-color: white;
+    border: 1px solid #CED4DA;
+    border-radius: 21px;
+    box-sizing: border-box;
+    padding: 5px;
+    display: flex;
+  
+}
+.btn-sreach{
+    width: 93px;
+    height: 95%;
+    margin-top: 2px;
+    background-color: #42A7C2;
+    border-radius: 10px;
+    border: none;
+   margin-left: 12px;
+    transition: 0.5s;
+}.btn-sreach:hover{
+    background-color: #2490ad;
+  
+}
+.btn-sreach:active{
+    background-color: #2490ad;
+  
+}
+.text-btn-sreach{
+    color: white;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+.icon-sreach{
+    margin: 10px;
+}
+.input-form{
+    width: 360px;
+    height: 35px;
+    border: 0;
+    font-size: 16px;
+    font-family: 'Noto Sans JP Regular', sans-serif;
+    outline: none;
+}
+/* End CSS sreach form  */
+/* End CSS header  */
+
+/* Strart CSS main  */
+.main{
+    margin-top:43px;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+   overflow: hidden;
+    height: auto;
+}
+/* Start CSS guide  */
+.guide{
+   
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    height: auto;
+}
+.title-guide{
+    display: flex;
+    width: auto;
+    height: 150px;
+  
+}
+.title{
+    width: auto;
+    display: block;
+    margin: 33px 30px 30px 21px;
+  
+}
+.main-title-output{
+    width: auto;
+    display: block;
+    padding: 30px 40px 30px 20px;
+  
+}
+.main-title{
+    text-decoration: none;
+    color: #42A7C2;
+    font-size: 25px;
+    font-family: 'Noto Sans JP Bold';
+   
+}
+.description-title{
+    color: #333333;
+    font-size: 15px;
+    font-family: 'Noto Sans JP Regular';
+    padding: 5px 0 0 5px;
+}
+.content-guide{
+    margin-top: 15px;
+    box-sizing: border-box;
+}
+.button-3col{
+    display: flex;
+    justify-content: space-between;
+}
+.col{
+    border: 2px solid #42A7C2;
+    width: 310px;
+    height: 140px;
+    margin: 5px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.icon-guide{
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+}
+.guide-icon{
+    margin:20px;
+}
+.text-guide{
+    color: #42A7C2;
+    font-size: 18px;
+    font-family: 'Noto Sans JP Regular' ;
+    width: 85%;
+    justify-content: center;
+    text-align: center;
+    padding: 0 25px 15px 25px;
+   
+}
+.p-text{
+    position: inline;
+}
+/* End CSS guide  */
+/* Start CSS output  */
+.output{
+    margin-top: 80px;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    height: auto;
+   
+}
+.title-output{
+    display: flex;
+    width: auto;
+    height: 150px;
+}
+.line{
+    border-top: 2px solid #5bc9e7;
+}
+.sub-title{
+    margin-top: 25px;
+}
+
+.content-output{
+    display: block;
+    box-sizing: border-box;
+    margin-top: 14px;
+    width: 100%;
+    height: auto;
+}
+.description-title-output{
+    color: #333333;
+    font-size: 15px;
+    font-family: 'Noto Sans JP Regular';
+    padding-top: 10px;
+}
+.button-4col{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    margin-bottom: 45px;
+}
+.col-output{
+    width: 220px;
+    height: 164px;
+    margin: 16px 12px 12px 3px;
+    background-color: #EAF1F7;
+    border-radius: 10px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+.col-output2{
+    width: 220px;
+    height: 164px;
+    margin: 15px 15px 12px 5px;
+    background-color: #EAF1F7;
+    border-radius: 10px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+.col-output3{
+    width: 220px;
+    height: 164px;
+    margin: 12px 12px 12px 0;
+    background-color: #EAF1F7;
+    border-radius: 10px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+#underline {
+    height: 4px;
+    background-color: #42A7C2;
+    transition: width 0.5s ease, left 0.5s ease; /* Chuyển tiếp cả chiều rộng và vị trí */
+    position: absolute;
+    left: 0; /* Bắt đầu từ vị trí ban đầu (0) */
+    width: 0; /* Ban đầu có chiều rộng bằng 0 */
+}
+.img-output{
+    margin: 25px;
+    height: 35%;
+    text-align: center;
+ 
+}
+.text-output{
+    color: #42A7C2;
+    font-size: 18px;
+    font-family: 'Noto Sans JP Regular' ;
+    width: 93%;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+.title-out{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Noto Sans JP Regular';
+    color: #42A7C2;
+   
+}
+
+#underline2 {
+    height: 4px;
+    background-color: #42A7C2;
+    transition: width 0.5s ease, left 0.5s ease; /* Chuyển tiếp cả chiều rộng và vị trí */
+    position: absolute;
+    left: 0; /* Bắt đầu từ vị trí ban đầu (0) */
+    width: 0; /* Ban đầu có chiều rộng bằng 0 */
+}
+#underline3 {
+    height: 4px;
+    background-color: #42A7C2;
+    transition: width 0.5s ease, left 0.5s ease; /* Chuyển tiếp cả chiều rộng và vị trí */
+    position: absolute;
+    left: 0; /* Bắt đầu từ vị trí ban đầu (0) */
+    width: 0; /* Ban đầu có chiều rộng bằng 0 */
+}
+/* End CSS output  */
+
+/* Start CSS function  */
+.function{
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    height: auto;
+    margin-top: 90px;
+    
+}
+.title-function{
+    display: flex;
+    width: auto;
+    height: 150px;
+}
+.content-function{   
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    justify-content: space-between;
+}
+.content-col-function{
+    width: 100%;
+    margin-top: 5px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.underline-function {
+    height: 4px;
+    background-color: #42A7C2;
+    position: absolute;
+    left: 0; /* Bắt đầu từ vị trí ban đầu (0) */
+    width: 0; /* Ban đầu có chiều rộng bằng 0 */
+}
+
+.main-function{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    display: block;
+    
+}
+.tabs{
+    display: block;
+   
+}
+.tab-function{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Noto Sans JP Regular';
+    color: #42A7C2;
+}
+.contents{
+    margin-bottom: 39px;
+    width: 49%;
+}
+/* End CSS function  */
+/* End CSS main  */
+
+/* start CSS footer  */
+.footer{
+    width: 100%;
+    height: 75px;
+    box-sizing: border-box;
+ 
+    background-color: #333333;
+}
+.text-footer{
+    text-align: right;
+    position: relative;
+    top: 40px;
+    right: 300px;
+    font-size: 12px;
+    color: #FFFFFF;
+    font-family: 'Noto Sans JP Regular';;
+}
+@media only screen and (min-width: 768px) and (max-width:1024px){
+    .content-left{
+        margin: 5px 5px;
+        width: 20%;
+        max-width: 150px;
+    }
+    .main-icon{
+        margin:0;
+        width: 115px;
+    }
+    .btn-web{
+        width: 115px;
+        margin: 0;
+        height: 30px;
+    }
+    .name-web{
+        font-size: 16px;
+    }
+    .tab{
+        padding: 13px 5px 5px 8px;
+        height: 40px;
+    }
+    .name-tab{
+        font-size: 11px;
+
+    }
+    .content-right{
+        width: 78%;
+    }
+    .menu{
+        padding: 11px 30px 0 2px;
+    }
+    .text-home{
+        font-size: 13px;
+    }
+    .text-share{
+        font-size: 13px;
+    }
+    .text-sendMail{
+        font-size: 13px;
+        padding-right: 4px;
+    }
+    .sreach-box{
+        margin-top:5px;
+        height: 60px;
+        padding-right: 30px;
+    }
+    .sreach{
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+    .sreach-form{
+        height: 35px;
+        margin: 4px 0px;
+    }
+    .input-form{
+        width: 240px;
+        height: 20px;
+    }
+    .form{
+        width: 300px;
+    }
+    .icon-sreach{
+        margin:4px;
+    }
+    .text-question{
+        margin: 14px 0 0 9px;
+        font-size: 13px;
+    }
+    .btn-sreach{
+        width: 70px;
+        margin-right: 5px;
+    }
+    .main{
+        margin-top:25px;
+        padding-right: 15px;
+    }
+    .col{
+        width: 220px;
+    }
+    .icon-guide{
+        height: 60px;
+    }
+    .text-guide{
+        font-size: 15px;
+        padding: 14px 25px 7px 13px;
+    }
+    .output{
+        margin-top: 60px;
+
+    }
+    .col-output{
+        height: 110px;
+        width: 140px;
+    }
+    .col-output2{
+        height: 110px;
+        width: 140px;
+    }
+    .col-output3{
+        height: 110px;
+        width: 140px;
+    }
+    .img-output{
+        margin: 3px;
+        height: 40%;
+    }
+    .text-output{
+        padding: 15px 5px 0 0;
+        font-size: 16px;
+    }
+    .function{
+        margin-top: 40px;
+    }
+    .footer{
+        padding-left: 200px;
+    }
+    .text-footer{
+        right: 100px;
+
+    }
+}
+@media only screen and (min-width: 688px) and (max-width:767px){
+    .content-left{
+        margin: 5px 5px;
+        width: 20%;
+        max-width: 150px;
+    }
+    .main-icon{
+        margin:0;
+        width: 115px;
+    }
+    .btn-web{
+        width: 115px;
+        margin: 0;
+        height: 30px;
+    }
+    .name-web{
+        font-size: 16px;
+    }
+    .tab{
+        padding: 13px 5px 5px 8px;
+        height: 40px;
+    }
+    .name-tab{
+        font-size: 11px;
+
+    }
+    .content-right{
+        width: 78%;
+    }
+    .menu{
+        padding: 11px 30px 0 2px;
+    }
+    .text-home{
+        font-size: 13px;
+    }
+    .text-share{
+        font-size: 13px;
+    }
+    .text-sendMail{
+        font-size: 13px;
+        padding-right: 4px;
+    }
+    .sreach-box{
+        margin-top:5px;
+        height: 60px;
+        padding-right: 30px;
+    }
+    .sreach{
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+    .sreach-form{
+        height: 35px;
+        margin: 4px 0px;
+    }
+    .input-form{
+        width: 240px;
+        height: 20px;
+    }
+    .form{
+        width: 300px;
+    }
+    .icon-sreach{
+        margin:4px;
+    }
+    .text-question{
+        margin: 14px 0 0 9px;
+        font-size: 9px;
+    }
+    .btn-sreach{
+        width: 70px;
+        margin-right: 5px;
+    }
+    .main{
+        margin-top:25px;
+        padding-right: 15px;
+    }
+    .col{
+        width: 220px;
+    }
+    .icon-guide{
+        height: 60px;
+    }
+    .text-guide{
+        font-size: 15px;
+        padding: 14px 25px 7px 13px;
+    }
+    .output{
+        margin-top: 60px;
+
+    }
+    .col-output{
+        height: 110px;
+        width: 140px;
+    }
+    .col-output2{
+        height: 110px;
+        width: 140px;
+    }
+    .col-output3{
+        height: 110px;
+        width: 140px;
+    }
+    .img-output{
+        margin: 3px;
+        height: 40%;
+    }
+    .text-output{
+        padding: 15px 5px 0 0;
+        font-size: 16px;
+    }
+    .function{
+        margin-top: 40px;
+    }
+    .footer{
+        padding-left: 200px;
+    }
+    .text-footer{
+        right: 100px;
+
+    }
+}
+
+@media only screen and (max-width:687px){
+    .content-left{
+       display: none;
+    }
+    .header{
+        height: 100px;
+        margin-top: 75px;
+    }
+   
+    .menu{
+        display: none;
+    }
+    .container{
+        overflow: hidden;
+    }
+    .content-right{
+        width: 100%;
+        margin-top: 0;
+    }
+    .main-icon{
+        width: 150px;
+    }
+    .btn-web{
+        margin: 0;
+        padding: 0;
+    }
+    .tab-icon{
+        padding-bottom: 0;
+    }
+    #MenuOnMobile.onMobile{
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 3;
+    }
+    #breadMenu{
+        display: block;
+    }
+   
+    #breadcrumbMenu {
+       margin: 10px 15px;
+      display: inline-block;
+      text-align: center;
+      height: 50px;
+    }
+    .tabMenuBread{
+        margin: 2px;
+       text-decoration: none;
+       font-family: 'Noto Sans JP Regular';
+       color: #2490ad;
+       
+    }
+    .arrow{
+       
+        color: #333;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    .tabMenu{
+        text-decoration: none;
+        color: #1E1E23;
+        opacity:1;
+        font-family: 'Noto Sans JP Regular';
+        font-size: 17px;
+        font-weight: 400;
+        transition: 200ms;
+    }
+    nav {
+        display: block;
+        background-color: #42A7C2;
+        height: 65px;
+      }
+      
+      
+      #menuToggle {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 25px;
+        left: 25px;
+        z-index: 1;
+        -webkit-user-select: none;
+        user-select: none;
+      }
+      
+      #menuToggle input
+      {
+        display: flex;
+        width: 40px;
+        height: 32px;
+        position: absolute;
+        cursor: pointer;
+        opacity: 0;
+        z-index: 2;
+      }
+      
+      #menuToggle span
+      {
+        display: flex;
+        width: 29px;
+        height: 2px;
+        margin-bottom: 5px;
+        position: relative;
+        background: #ffffff;
+        border-radius: 3px;
+        z-index: 1;
+        transform-origin: 5px 0px;
+        transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                    background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                    opacity 0.55s ease;
+      }
+      
+      #menuToggle span:first-child
+      {
+        transform-origin: 0% 0%;
+      }
+      
+      #menuToggle span:nth-last-child(2)
+      {
+        transform-origin: 0% 100%;
+      }
+      
+      #menuToggle input:checked ~ span
+      {
+        opacity: 1;
+        transform: rotate(45deg) translate(-3px, -1px);
+        background: #36383F;
+      }
+      #menuToggle input:checked ~ span:nth-last-child(3)
+      {
+        opacity: 0;
+        transform: rotate(0deg) scale(0.2, 0.2);
+      }
+      
+      #menuToggle input:checked ~ span:nth-last-child(2)
+      {
+        transform: rotate(-45deg) translate(0, -1px);
+      }
+      
+      #menu
+      {
+        padding-top: 5px;
+        position: absolute;
+        width: 180px;
+        height: 400px;
+        box-shadow: 0 0 10px #85888C;
+        margin: -50px 0 0 -50px;
+        padding: 50px;
+        padding-top: 40px;
+        background-color: #F5F6FA;
+        -webkit-font-smoothing: antialiased;
+        transform-origin: 0% 0%;
+        transform: translate(-100%, 0);
+        transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+      }
+      
+      #menu li
+      {
+        padding: 10px 0;
+        transition-delay: 2s;
+      }
+      
+      #menuToggle input:checked ~ ul
+      {
+        transform: none;
+      }
+    .text-home{
+        font-size: 13px;
+    }
+    .text-share{
+        font-size: 13px;
+    }
+    .text-sendMail{
+        font-size: 13px;
+        padding-right: 4px;
+    }
+    .sreach-box{
+        margin-top:5px;
+        height: 60px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .sreach{
+        width: 83%;
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+    .sreach-form{
+        height: 35px;
+        margin: 4px 0px;
+    }
+    .input-form{
+        width: 160px;
+        height: 20px;
+        font-size: 13px;
+    }
+    .form{
+        width: 200px;
+    }
+    .icon-sreach{
+        margin:4px;
+    }
+    .text-question{
+       display: none;
+    }
+    .btn-sreach{
+        width: 70px;
+        margin-right: 5px;
+    }
+    .main{
+        margin-top:25px;
+        padding:0 15px;
+    }
+    .main-title{
+        font-size: 20px;
+    }
+    .description-title{
+        font-size: 13px;
+    }
+    .col{
+        width: 220px;
+    }
+    .icon-guide{
+        height: 60px;
+    }
+    .text-guide{
+        font-size: 12px;
+        padding: 14px 0px 7px 7px;
+    }
+    .output{
+        margin-top: 60px;
+
+    }
+    .button-4col{
+        display: inline;
+    }
+    .title-out{
+        font-size: 15px;
+    }
+    .col-output{
+        height: 110px;
+        width: 140px;
+    }
+    .col-output2{
+        height: 110px;
+        width: 140px;
+    }
+    .col-output3{
+        height: 110px;
+        width: 140px;
+    }
+    .img-output{
+        margin: 3px;
+        height: 40%;
+    }
+    .text-output{
+        padding: 15px 5px 0 0;
+        font-size: 16px;
+    }
+    .function{
+        margin-top: 40px;
+    }
+    .contents{
+        width: 45%;
+    }
+   .main-function{
+    margin-top: 10px;
+   }
+   .content-col-function{
+    margin-top: 25px;
+   }
+   .tab-function{
+    font-size: 14px;
+   }
+    .footer{
+        padding-left: 200px;
+    }
+    .text-footer{
+        right: 30px;
+        font-size: 8px;
+    }
+}
+
+/* end CSS footer  */
